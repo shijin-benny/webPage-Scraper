@@ -6,6 +6,7 @@
     "express": "^4.17.3",
     "express-handler": "^0.2.0",
     "hbs": "^4.2.0",
+    "mongodb": "^4.4.1",
     "nodemon": "^2.0.15"
   },
   "scripts": {

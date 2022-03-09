@@ -56,7 +56,7 @@
                 </td>
                 <td class="px-1 py-4 whitespace-nowrap border-r w-40">
                   <div class="flex justify-center">
-                    {{this.totalwords}}
+                    {{this.total}}
                   </div>
 
                 </td>
@@ -82,7 +82,7 @@
                   <button onclick="removeitems('{{this._id}}')"
                     class="text-white hover:text-indigo-900 bg-red-500 px-3 py-1" id="remove">Remove</button>
                   {{#if favorite}}
-                  <button onclick="favorite('{{this._id}}')" class="text-white hover:text-indigo-900 bg-red-500 px-3 py-1">Remove-to-favorite</button>
+                  <button onclick="favorite('{{this._id}}','false')" class="text-white hover:text-indigo-900 bg-red-500 px-3 py-1">Remove-to-favorite</button>
                   {{else}}
                   <button onclick="favorite('{{this._id}}','true')" class="text-white hover:text-indigo-900 bg-green-500 px-3 py-1">Add-to-favorite</button>
                   {{/if}}
